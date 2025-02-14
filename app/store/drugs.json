@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Paracetamol",
       "description": "Used for pain relief and reducing fever.",
-      "image": "https://placehold.co/300x300?text=Paracetamol",
+      "image": "https://www.emzorpharma.com/wp-content/uploads/2019/11/08-Paracetamol-96-WorldCup-Pack-View-01-844x1024.png",
       "price": 200,
       "quantity": 100
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Ibuprofen",
       "description": "Nonsteroidal anti-inflammatory drug used for pain relief.",
-      "image": "https://placehold.co/300x300?text=Ibuprofen",
+      "image": "https://image.made-in-china.com/2f0j00VGwbadmFMocR/Ibuprofen-Tablets-200mg-400mg-600mg-800mg.webp",
       "price": 350,
       "quantity": 80
     },
@@ -19,15 +19,15 @@
       "id": 3,
       "name": "Amoxicillin",
       "description": "Antibiotic used to treat bacterial infections.",
-      "image": "https://placehold.co/300x300?text=Amoxicillin",
+      "image": "https://petmedmart.com/wp-content/uploads/2023/11/amox250.jpg",
       "price": 500,
       "quantity": 60
     },
     {
       "id": 4,
       "name": "Ciprofloxacin",
-      "description": "Antibiotic used for a range of bacterial infections.",
-      "image": "https://placehold.co/300x300?text=Ciprofloxacin",
+      "description": "Antibiotic uIbuprofensed for a range of bacterial infections.",
+      "image": "https://preferred-drugs.com/wp-content/uploads/2021/05/DSC_9584-scaled.jpg",
       "price": 800,
       "quantity": 50
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "name": "Metronidazole",
       "description": "Antibiotic used to treat anaerobic bacteria and protozoa.",
-      "image": "https://placehold.co/300x300?text=Metronidazole",
+      "image": "https://s.turbifycdn.com/aah/yhst-135855760451349/metronidazole-500-mg-50-tablet-manufacture-may-vary-47.jpg",
       "price": 400,
       "quantity": 70
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "name": "Azithromycin",
       "description": "Antibiotic used for respiratory tract infections.",
-      "image": "https://placehold.co/300x300?text=Azithromycin",
+      "image": "https://medecify.com/storages/2023/12/IMG-103-scaled.jpeg",
       "price": 1200,
       "quantity": 40
     },

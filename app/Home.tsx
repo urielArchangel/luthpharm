@@ -20,7 +20,7 @@ const Home = () => {
               with fast billing, seamless payments, and hassle-free discharge.
             </p>
           </div>
-          <Link href="/store" className="bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded py-3 px-8 text-base sm:text-lg transition-colors">
+          <Link href="/store" className="bg-green-600 hover:bg-green-700 text-white font-semibold rounded py-3 px-8 text-base sm:text-lg transition-colors">
             Store
           </Link>
         </section>

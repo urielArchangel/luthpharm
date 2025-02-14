@@ -9,7 +9,8 @@ const NavBar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <h1>LuthPharm</h1>
+      <Link href="/"><h1>LuthPharm</h1></Link>
+      
       </div>
       <div className="navbar-center">
         <Link href="/store">Store</Link>
