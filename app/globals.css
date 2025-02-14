@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hero{
+  background-image: url(../public/hero.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ojumi{
+  background-image: url(../public/Ojumi.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.busari{
+  background-image: url(../public/Busari.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.deborah{
+  background-image: url(../public/Deborah.jpeg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

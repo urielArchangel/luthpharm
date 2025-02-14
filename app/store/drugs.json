@@ -1,0 +1,803 @@
+[
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "description": "Used for pain relief and reducing fever.",
+      "image": "https://placehold.co/300x300?text=Paracetamol",
+      "price": 200,
+      "quantity": 100
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofen",
+      "description": "Nonsteroidal anti-inflammatory drug used for pain relief.",
+      "image": "https://placehold.co/300x300?text=Ibuprofen",
+      "price": 350,
+      "quantity": 80
+    },
+    {
+      "id": 3,
+      "name": "Amoxicillin",
+      "description": "Antibiotic used to treat bacterial infections.",
+      "image": "https://placehold.co/300x300?text=Amoxicillin",
+      "price": 500,
+      "quantity": 60
+    },
+    {
+      "id": 4,
+      "name": "Ciprofloxacin",
+      "description": "Antibiotic used for a range of bacterial infections.",
+      "image": "https://placehold.co/300x300?text=Ciprofloxacin",
+      "price": 800,
+      "quantity": 50
+    },
+    {
+      "id": 5,
+      "name": "Metronidazole",
+      "description": "Antibiotic used to treat anaerobic bacteria and protozoa.",
+      "image": "https://placehold.co/300x300?text=Metronidazole",
+      "price": 400,
+      "quantity": 70
+    },
+    {
+      "id": 6,
+      "name": "Azithromycin",
+      "description": "Antibiotic used for respiratory tract infections.",
+      "image": "https://placehold.co/300x300?text=Azithromycin",
+      "price": 1200,
+      "quantity": 40
+    },
+    {
+      "id": 7,
+      "name": "Diclofenac",
+      "description": "Nonsteroidal anti-inflammatory drug for pain and inflammation.",
+      "image": "https://placehold.co/300x300?text=Diclofenac",
+      "price": 450,
+      "quantity": 60
+    },
+    {
+      "id": 8,
+      "name": "Omeprazole",
+      "description": "Used to reduce stomach acid production.",
+      "image": "https://placehold.co/300x300?text=Omeprazole",
+      "price": 600,
+      "quantity": 90
+    },
+    {
+      "id": 9,
+      "name": "Simvastatin",
+      "description": "Used to control cholesterol levels.",
+      "image": "https://placehold.co/300x300?text=Simvastatin",
+      "price": 700,
+      "quantity": 70
+    },
+    {
+      "id": 10,
+      "name": "Losartan",
+      "description": "Used to treat high blood pressure.",
+      "image": "https://placehold.co/300x300?text=Losartan",
+      "price": 850,
+      "quantity": 50
+    },
+    {
+      "id": 11,
+      "name": "Amlodipine",
+      "description": "Calcium channel blocker for hypertension.",
+      "image": "https://placehold.co/300x300?text=Amlodipine",
+      "price": 900,
+      "quantity": 80
+    },
+    {
+      "id": 12,
+      "name": "Captopril",
+      "description": "ACE inhibitor used to treat high blood pressure.",
+      "image": "https://placehold.co/300x300?text=Captopril",
+      "price": 500,
+      "quantity": 60
+    },
+    {
+      "id": 13,
+      "name": "Atenolol",
+      "description": "Beta blocker used for high blood pressure.",
+      "image": "https://placehold.co/300x300?text=Atenolol",
+      "price": 750,
+      "quantity": 70
+    },
+    {
+      "id": 14,
+      "name": "Metformin",
+      "description": "Used to treat type 2 diabetes.",
+      "image": "https://placehold.co/300x300?text=Metformin",
+      "price": 650,
+      "quantity": 100
+    },
+    {
+      "id": 15,
+      "name": "Glibenclamide",
+      "description": "Oral hypoglycemic used for diabetes management.",
+      "image": "https://placehold.co/300x300?text=Glibenclamide",
+      "price": 550,
+      "quantity": 80
+    },
+    {
+      "id": 16,
+      "name": "Salbutamol",
+      "description": "Bronchodilator used in asthma treatment.",
+      "image": "https://placehold.co/300x300?text=Salbutamol",
+      "price": 1000,
+      "quantity": 60
+    },
+    {
+      "id": 17,
+      "name": "Beclomethasone",
+      "description": "Corticosteroid inhaler for asthma.",
+      "image": "https://placehold.co/300x300?text=Beclomethasone",
+      "price": 1100,
+      "quantity": 50
+    },
+    {
+      "id": 18,
+      "name": "Montelukast",
+      "description": "Used for asthma and allergic rhinitis.",
+      "image": "https://placehold.co/300x300?text=Montelukast",
+      "price": 1200,
+      "quantity": 70
+    },
+    {
+      "id": 19,
+      "name": "Ranitidine",
+      "description": "Reduces stomach acid production.",
+      "image": "https://placehold.co/300x300?text=Ranitidine",
+      "price": 650,
+      "quantity": 90
+    },
+    {
+      "id": 20,
+      "name": "Loratadine",
+      "description": "Antihistamine for allergies.",
+      "image": "https://placehold.co/300x300?text=Loratadine",
+      "price": 500,
+      "quantity": 100
+    },
+    {
+      "id": 21,
+      "name": "Cetirizine",
+      "description": "Antihistamine for allergy relief.",
+      "image": "https://placehold.co/300x300?text=Cetirizine",
+      "price": 550,
+      "quantity": 80
+    },
+    {
+      "id": 22,
+      "name": "Diphenhydramine",
+      "description": "Antihistamine used for allergies and insomnia.",
+      "image": "https://placehold.co/300x300?text=Diphenhydramine",
+      "price": 600,
+      "quantity": 70
+    },
+    {
+      "id": 23,
+      "name": "Prednisolone",
+      "description": "Steroid used for reducing inflammation.",
+      "image": "https://placehold.co/300x300?text=Prednisolone",
+      "price": 700,
+      "quantity": 60
+    },
+    {
+      "id": 24,
+      "name": "Hydrocortisone",
+      "description": "Topical steroid for skin inflammation.",
+      "image": "https://placehold.co/300x300?text=Hydrocortisone",
+      "price": 400,
+      "quantity": 80
+    },
+    {
+      "id": 25,
+      "name": "Albendazole",
+      "description": "Antihelminthic used for parasitic infections.",
+      "image": "https://placehold.co/300x300?text=Albendazole",
+      "price": 300,
+      "quantity": 90
+    },
+    {
+      "id": 26,
+      "name": "Mebendazole",
+      "description": "Used to treat worm infections.",
+      "image": "https://placehold.co/300x300?text=Mebendazole",
+      "price": 350,
+      "quantity": 85
+    },
+    {
+      "id": 27,
+      "name": "Artemether-Lumefantrine",
+      "description": "Antimalarial combination therapy.",
+      "image": "https://placehold.co/300x300?text=Artemether-Lumefantrine",
+      "price": 2500,
+      "quantity": 40
+    },
+    {
+      "id": 28,
+      "name": "Ferrous Sulfate",
+      "description": "Iron supplement used for anemia.",
+      "image": "https://placehold.co/300x300?text=Ferrous+Sulfate",
+      "price": 400,
+      "quantity": 100
+    },
+    {
+      "id": 29,
+      "name": "Folic Acid",
+      "description": "Vitamin supplement, especially important in pregnancy.",
+      "image": "https://placehold.co/300x300?text=Folic+Acid",
+      "price": 300,
+      "quantity": 120
+    },
+    {
+      "id": 30,
+      "name": "Vitamin C",
+      "description": "Essential vitamin and antioxidant.",
+      "image": "https://placehold.co/300x300?text=Vitamin+C",
+      "price": 350,
+      "quantity": 150
+    },
+    {
+      "id": 31,
+      "name": "Vitamin D",
+      "description": "Essential for bone health.",
+      "image": "https://placehold.co/300x300?text=Vitamin+D",
+      "price": 500,
+      "quantity": 130
+    },
+    {
+      "id": 32,
+      "name": "Calcium Carbonate",
+      "description": "Supplement for calcium intake.",
+      "image": "https://placehold.co/300x300?text=Calcium+Carbonate",
+      "price": 450,
+      "quantity": 110
+    },
+    {
+      "id": 33,
+      "name": "Lansoprazole",
+      "description": "Proton pump inhibitor for acid reflux.",
+      "image": "https://placehold.co/300x300?text=Lansoprazole",
+      "price": 700,
+      "quantity": 90
+    },
+    {
+      "id": 34,
+      "name": "Esomeprazole",
+      "description": "Proton pump inhibitor for acid reflux.",
+      "image": "https://placehold.co/300x300?text=Esomeprazole",
+      "price": 750,
+      "quantity": 85
+    },
+    {
+      "id": 35,
+      "name": "Rabeprazole",
+      "description": "Reduces stomach acid production.",
+      "image": "https://placehold.co/300x300?text=Rabeprazole",
+      "price": 800,
+      "quantity": 80
+    },
+    {
+      "id": 36,
+      "name": "Doxycycline",
+      "description": "Antibiotic for various infections.",
+      "image": "https://placehold.co/300x300?text=Doxycycline",
+      "price": 900,
+      "quantity": 70
+    },
+    {
+      "id": 37,
+      "name": "Clindamycin",
+      "description": "Antibiotic used for bacterial infections.",
+      "image": "https://placehold.co/300x300?text=Clindamycin",
+      "price": 850,
+      "quantity": 60
+    },
+    {
+      "id": 38,
+      "name": "Vancomycin",
+      "description": "Antibiotic for severe infections.",
+      "image": "https://placehold.co/300x300?text=Vancomycin",
+      "price": 5000,
+      "quantity": 30
+    },
+    {
+      "id": 39,
+      "name": "Ceftriaxone",
+      "description": "Broad-spectrum antibiotic.",
+      "image": "https://placehold.co/300x300?text=Ceftriaxone",
+      "price": 1500,
+      "quantity": 40
+    },
+    {
+      "id": 40,
+      "name": "Meropenem",
+      "description": "Carbapenem antibiotic for severe infections.",
+      "image": "https://placehold.co/300x300?text=Meropenem",
+      "price": 6000,
+      "quantity": 25
+    },
+    {
+      "id": 41,
+      "name": "Aztreonam",
+      "description": "Antibiotic used for Gram-negative bacteria.",
+      "image": "https://placehold.co/300x300?text=Aztreonam",
+      "price": 3500,
+      "quantity": 35
+    },
+    {
+      "id": 42,
+      "name": "Gentamicin",
+      "description": "Antibiotic used for various infections.",
+      "image": "https://placehold.co/300x300?text=Gentamicin",
+      "price": 800,
+      "quantity": 50
+    },
+    {
+      "id": 43,
+      "name": "Amikacin",
+      "description": "Antibiotic for severe infections.",
+      "image": "https://placehold.co/300x300?text=Amikacin",
+      "price": 1000,
+      "quantity": 45
+    },
+    {
+      "id": 44,
+      "name": "Levofloxacin",
+      "description": "Broad-spectrum antibiotic.",
+      "image": "https://placehold.co/300x300?text=Levofloxacin",
+      "price": 1200,
+      "quantity": 50
+    },
+    {
+      "id": 45,
+      "name": "Moxifloxacin",
+      "description": "Antibiotic for respiratory infections.",
+      "image": "https://placehold.co/300x300?text=Moxifloxacin",
+      "price": 1300,
+      "quantity": 45
+    },
+    {
+      "id": 46,
+      "name": "Nitrofurantoin",
+      "description": "Used to treat urinary tract infections.",
+      "image": "https://placehold.co/300x300?text=Nitrofurantoin",
+      "price": 600,
+      "quantity": 70
+    },
+    {
+      "id": 47,
+      "name": "Tetracycline",
+      "description": "Broad-spectrum antibiotic.",
+      "image": "https://placehold.co/300x300?text=Tetracycline",
+      "price": 700,
+      "quantity": 60
+    },
+    {
+      "id": 48,
+      "name": "Chloramphenicol",
+      "description": "Antibiotic for serious infections.",
+      "image": "https://placehold.co/300x300?text=Chloramphenicol",
+      "price": 650,
+      "quantity": 50
+    },
+    {
+      "id": 49,
+      "name": "Linezolid",
+      "description": "Antibiotic used for resistant infections.",
+      "image": "https://placehold.co/300x300?text=Linezolid",
+      "price": 3000,
+      "quantity": 35
+    },
+    {
+      "id": 50,
+      "name": "Loperamide",
+      "description": "Used to treat diarrhea.",
+      "image": "https://placehold.co/300x300?text=Loperamide",
+      "price": 400,
+      "quantity": 80
+    },
+    {
+      "id": 51,
+      "name": "Oral Rehydration Salts (ORS)",
+      "description": "Rehydrates and replaces electrolytes.",
+      "image": "https://placehold.co/300x300?text=Oral+Rehydration+Salts+%28ORS%29",
+      "price": 150,
+      "quantity": 200
+    },
+    {
+      "id": 52,
+      "name": "Zinc Sulfate",
+      "description": "Supplement used for zinc deficiency.",
+      "image": "https://placehold.co/300x300?text=Zinc+Sulfate",
+      "price": 200,
+      "quantity": 150
+    },
+    {
+      "id": 53,
+      "name": "Cloxacillin",
+      "description": "Antibiotic used for staphylococcal infections.",
+      "image": "https://placehold.co/300x300?text=Cloxacillin",
+      "price": 500,
+      "quantity": 70
+    },
+    {
+      "id": 54,
+      "name": "Fluconazole",
+      "description": "Antifungal medication.",
+      "image": "https://placehold.co/300x300?text=Fluconazole",
+      "price": 1200,
+      "quantity": 60
+    },
+    {
+      "id": 55,
+      "name": "Itraconazole",
+      "description": "Antifungal used for systemic infections.",
+      "image": "https://placehold.co/300x300?text=Itraconazole",
+      "price": 1500,
+      "quantity": 55
+    },
+    {
+      "id": 56,
+      "name": "Miconazole",
+      "description": "Antifungal cream for skin infections.",
+      "image": "https://placehold.co/300x300?text=Miconazole",
+      "price": 800,
+      "quantity": 75
+    },
+    {
+      "id": 57,
+      "name": "Nystatin",
+      "description": "Antifungal for candidiasis.",
+      "image": "https://placehold.co/300x300?text=Nystatin",
+      "price": 700,
+      "quantity": 80
+    },
+    {
+      "id": 58,
+      "name": "Saline Nasal Spray",
+      "description": "Used for nasal congestion relief.",
+      "image": "https://placehold.co/300x300?text=Saline+Nasal+Spray",
+      "price": 300,
+      "quantity": 100
+    },
+    {
+      "id": 59,
+      "name": "Xylometazoline",
+      "description": "Decongestant nasal spray.",
+      "image": "https://placehold.co/300x300?text=Xylometazoline",
+      "price": 500,
+      "quantity": 90
+    },
+    {
+      "id": 60,
+      "name": "Phenylephrine",
+      "description": "Decongestant and vasopressor.",
+      "image": "https://placehold.co/300x300?text=Phenylephrine",
+      "price": 550,
+      "quantity": 80
+    },
+    {
+      "id": 61,
+      "name": "Fluticasone Propionate",
+      "description": "Corticosteroid for asthma management.",
+      "image": "https://placehold.co/300x300?text=Fluticasone+Propionate",
+      "price": 1300,
+      "quantity": 60
+    },
+    {
+      "id": 62,
+      "name": "Budesonide",
+      "description": "Steroid inhaler for asthma.",
+      "image": "https://placehold.co/300x300?text=Budesonide",
+      "price": 1250,
+      "quantity": 65
+    },
+    {
+      "id": 63,
+      "name": "Terbutaline",
+      "description": "Bronchodilator used for asthma.",
+      "image": "https://placehold.co/300x300?text=Terbutaline",
+      "price": 900,
+      "quantity": 50
+    },
+    {
+      "id": 64,
+      "name": "Regular Insulin",
+      "description": "Short-acting insulin for diabetes management.",
+      "image": "https://placehold.co/300x300?text=Regular+Insulin",
+      "price": 2500,
+      "quantity": 40
+    },
+    {
+      "id": 65,
+      "name": "Glargine Insulin",
+      "description": "Long-acting insulin for diabetes management.",
+      "image": "https://placehold.co/300x300?text=Glargine+Insulin",
+      "price": 3000,
+      "quantity": 35
+    },
+    {
+      "id": 66,
+      "name": "Insulin Detemir",
+      "description": "Long-acting insulin alternative.",
+      "image": "https://placehold.co/300x300?text=Insulin+Detemir",
+      "price": 2800,
+      "quantity": 30
+    },
+    {
+      "id": 67,
+      "name": "Risperidone",
+      "description": "Antipsychotic used for schizophrenia and bipolar disorder.",
+      "image": "https://placehold.co/300x300?text=Risperidone",
+      "price": 1500,
+      "quantity": 50
+    },
+    {
+      "id": 68,
+      "name": "Olanzapine",
+      "description": "Antipsychotic for mental health disorders.",
+      "image": "https://placehold.co/300x300?text=Olanzapine",
+      "price": 1400,
+      "quantity": 55
+    },
+    {
+      "id": 69,
+      "name": "Haloperidol",
+      "description": "Antipsychotic for schizophrenia and acute psychosis.",
+      "image": "https://placehold.co/300x300?text=Haloperidol",
+      "price": 800,
+      "quantity": 60
+    },
+    {
+      "id": 70,
+      "name": "Lithium Carbonate",
+      "description": "Mood stabilizer used for bipolar disorder.",
+      "image": "https://placehold.co/300x300?text=Lithium+Carbonate",
+      "price": 1000,
+      "quantity": 45
+    },
+    {
+      "id": 71,
+      "name": "Carbamazepine",
+      "description": "Anticonvulsant used for epilepsy and bipolar disorder.",
+      "image": "https://placehold.co/300x300?text=Carbamazepine",
+      "price": 900,
+      "quantity": 50
+    },
+    {
+      "id": 72,
+      "name": "Valproic Acid",
+      "description": "Anticonvulsant and mood stabilizer.",
+      "image": "https://placehold.co/300x300?text=Valproic+Acid",
+      "price": 950,
+      "quantity": 50
+    },
+    {
+      "id": 73,
+      "name": "Fluoxetine",
+      "description": "Antidepressant used for depression and anxiety.",
+      "image": "https://placehold.co/300x300?text=Fluoxetine",
+      "price": 1200,
+      "quantity": 60
+    },
+    {
+      "id": 74,
+      "name": "Sertraline",
+      "description": "Antidepressant used for depression and anxiety.",
+      "image": "https://placehold.co/300x300?text=Sertraline",
+      "price": 1150,
+      "quantity": 65
+    },
+    {
+      "id": 75,
+      "name": "Amitriptyline",
+      "description": "Tricyclic antidepressant used for depression.",
+      "image": "https://placehold.co/300x300?text=Amitriptyline",
+      "price": 900,
+      "quantity": 70
+    },
+    {
+      "id": 76,
+      "name": "Citalopram",
+      "description": "SSRI used for depression.",
+      "image": "https://placehold.co/300x300?text=Citalopram",
+      "price": 1100,
+      "quantity": 75
+    },
+    {
+      "id": 77,
+      "name": "Lorazepam",
+      "description": "Benzodiazepine used for anxiety.",
+      "image": "https://placehold.co/300x300?text=Lorazepam",
+      "price": 800,
+      "quantity": 60
+    },
+    {
+      "id": 78,
+      "name": "Diazepam",
+      "description": "Benzodiazepine used for anxiety and seizures.",
+      "image": "https://placehold.co/300x300?text=Diazepam",
+      "price": 850,
+      "quantity": 60
+    },
+    {
+      "id": 79,
+      "name": "Midazolam",
+      "description": "Benzodiazepine used for sedation.",
+      "image": "https://placehold.co/300x300?text=Midazolam",
+      "price": 1000,
+      "quantity": 50
+    },
+    {
+      "id": 80,
+      "name": "Clonazepam",
+      "description": "Benzodiazepine used for seizures and panic disorders.",
+      "image": "https://placehold.co/300x300?text=Clonazepam",
+      "price": 900,
+      "quantity": 55
+    },
+    {
+      "id": 81,
+      "name": "Alprazolam",
+      "description": "Benzodiazepine used for anxiety and panic disorders.",
+      "image": "https://placehold.co/300x300?text=Alprazolam",
+      "price": 950,
+      "quantity": 60
+    },
+    {
+      "id": 82,
+      "name": "Zolpidem",
+      "description": "Sedative used for insomnia.",
+      "image": "https://placehold.co/300x300?text=Zolpidem",
+      "price": 1200,
+      "quantity": 50
+    },
+    {
+      "id": 83,
+      "name": "Sildenafil",
+      "description": "Used for erectile dysfunction.",
+      "image": "https://placehold.co/300x300?text=Sildenafil",
+      "price": 2000,
+      "quantity": 40
+    },
+    {
+      "id": 84,
+      "name": "Tadalafil",
+      "description": "Used for erectile dysfunction.",
+      "image": "https://placehold.co/300x300?text=Tadalafil",
+      "price": 2500,
+      "quantity": 40
+    },
+    {
+      "id": 85,
+      "name": "Nifedipine",
+      "description": "Calcium channel blocker for hypertension and angina.",
+      "image": "https://placehold.co/300x300?text=Nifedipine",
+      "price": 1000,
+      "quantity": 70
+    },
+    {
+      "id": 86,
+      "name": "Diltiazem",
+      "description": "Calcium channel blocker for heart conditions.",
+      "image": "https://placehold.co/300x300?text=Diltiazem",
+      "price": 1100,
+      "quantity": 70
+    },
+    {
+      "id": 87,
+      "name": "Verapamil",
+      "description": "Calcium channel blocker used for heart rate control.",
+      "image": "https://placehold.co/300x300?text=Verapamil",
+      "price": 1150,
+      "quantity": 65
+    },
+    {
+      "id": 88,
+      "name": "Furosemide",
+      "description": "Diuretic used for edema and hypertension.",
+      "image": "https://placehold.co/300x300?text=Furosemide",
+      "price": 500,
+      "quantity": 80
+    },
+    {
+      "id": 89,
+      "name": "Spironolactone",
+      "description": "Diuretic with anti-androgen properties.",
+      "image": "https://placehold.co/300x300?text=Spironolactone",
+      "price": 700,
+      "quantity": 75
+    },
+    {
+      "id": 90,
+      "name": "Hydrochlorothiazide",
+      "description": "Thiazide diuretic for hypertension.",
+      "image": "https://placehold.co/300x300?text=Hydrochlorothiazide",
+      "price": 450,
+      "quantity": 90
+    },
+    {
+      "id": 91,
+      "name": "Enalapril",
+      "description": "ACE inhibitor used for hypertension.",
+      "image": "https://placehold.co/300x300?text=Enalapril",
+      "price": 800,
+      "quantity": 70
+    },
+    {
+      "id": 92,
+      "name": "Valsartan",
+      "description": "Angiotensin II receptor blocker for hypertension.",
+      "image": "https://placehold.co/300x300?text=Valsartan",
+      "price": 900,
+      "quantity": 65
+    },
+    {
+      "id": 93,
+      "name": "Metoprolol",
+      "description": "Beta blocker used for hypertension and heart conditions.",
+      "image": "https://placehold.co/300x300?text=Metoprolol",
+      "price": 850,
+      "quantity": 70
+    },
+    {
+      "id": 94,
+      "name": "Bisoprolol",
+      "description": "Beta blocker used for heart failure and hypertension.",
+      "image": "https://placehold.co/300x300?text=Bisoprolol",
+      "price": 900,
+      "quantity": 60
+    },
+    {
+      "id": 95,
+      "name": "Atorvastatin",
+      "description": "Used to lower cholesterol levels.",
+      "image": "https://placehold.co/300x300?text=Atorvastatin",
+      "price": 1100,
+      "quantity": 80
+    },
+    {
+      "id": 96,
+      "name": "Rosuvastatin",
+      "description": "Statin used for managing cholesterol.",
+      "image": "https://placehold.co/300x300?text=Rosuvastatin",
+      "price": 1200,
+      "quantity": 75
+    },
+    {
+      "id": 97,
+      "name": "Pantoprazole",
+      "description": "Proton pump inhibitor for acid reflux.",
+      "image": "https://placehold.co/300x300?text=Pantoprazole",
+      "price": 800,
+      "quantity": 85
+    },
+    {
+      "id": 98,
+      "name": "Levothyroxine",
+      "description": "Hormone replacement for hypothyroidism.",
+      "image": "https://placehold.co/300x300?text=Levothyroxine",
+      "price": 950,
+      "quantity": 90
+    },
+    {
+      "id": 99,
+      "name": "Methimazole",
+      "description": "Used to treat hyperthyroidism.",
+      "image": "https://placehold.co/300x300?text=Methimazole",
+      "price": 850,
+      "quantity": 80
+    },
+    {
+      "id": 100,
+      "name": "Clotrimazole",
+      "description": "Antifungal used for skin infections.",
+      "image": "https://placehold.co/300x300?text=Clotrimazole",
+      "price": 800,
+      "quantity": 70
+    }
+  ]
+  
