@@ -1,803 +1,762 @@
 [
-    {
-      "id": 1,
-      "name": "Paracetamol",
-      "description": "Used for pain relief and reducing fever.",
-      "image": "https://www.emzorpharma.com/wp-content/uploads/2019/11/08-Paracetamol-96-WorldCup-Pack-View-01-844x1024.png",
-      "price": 200,
-      "quantity": 100
-    },
-    {
-      "id": 2,
-      "name": "Ibuprofen",
-      "description": "Nonsteroidal anti-inflammatory drug used for pain relief.",
-      "image": "https://image.made-in-china.com/2f0j00VGwbadmFMocR/Ibuprofen-Tablets-200mg-400mg-600mg-800mg.webp",
-      "price": 350,
-      "quantity": 80
-    },
-    {
-      "id": 3,
-      "name": "Amoxicillin",
-      "description": "Antibiotic used to treat bacterial infections.",
-      "image": "https://petmedmart.com/wp-content/uploads/2023/11/amox250.jpg",
-      "price": 500,
-      "quantity": 60
-    },
-    {
-      "id": 4,
-      "name": "Ciprofloxacin",
-      "description": "Antibiotic uIbuprofensed for a range of bacterial infections.",
-      "image": "https://preferred-drugs.com/wp-content/uploads/2021/05/DSC_9584-scaled.jpg",
-      "price": 800,
-      "quantity": 50
-    },
-    {
-      "id": 5,
-      "name": "Metronidazole",
-      "description": "Antibiotic used to treat anaerobic bacteria and protozoa.",
-      "image": "https://s.turbifycdn.com/aah/yhst-135855760451349/metronidazole-500-mg-50-tablet-manufacture-may-vary-47.jpg",
-      "price": 400,
-      "quantity": 70
-    },
-    {
-      "id": 6,
-      "name": "Azithromycin",
-      "description": "Antibiotic used for respiratory tract infections.",
-      "image": "https://medecify.com/storages/2023/12/IMG-103-scaled.jpeg",
-      "price": 1200,
-      "quantity": 40
-    },
-    {
-      "id": 7,
-      "name": "Diclofenac",
-      "description": "Nonsteroidal anti-inflammatory drug for pain and inflammation.",
-      "image": "https://placehold.co/300x300?text=Diclofenac",
-      "price": 450,
-      "quantity": 60
-    },
-    {
-      "id": 8,
-      "name": "Omeprazole",
-      "description": "Used to reduce stomach acid production.",
-      "image": "https://placehold.co/300x300?text=Omeprazole",
-      "price": 600,
-      "quantity": 90
-    },
-    {
-      "id": 9,
-      "name": "Simvastatin",
-      "description": "Used to control cholesterol levels.",
-      "image": "https://placehold.co/300x300?text=Simvastatin",
-      "price": 700,
-      "quantity": 70
-    },
-    {
-      "id": 10,
-      "name": "Losartan",
-      "description": "Used to treat high blood pressure.",
-      "image": "https://placehold.co/300x300?text=Losartan",
-      "price": 850,
-      "quantity": 50
-    },
-    {
-      "id": 11,
-      "name": "Amlodipine",
-      "description": "Calcium channel blocker for hypertension.",
-      "image": "https://placehold.co/300x300?text=Amlodipine",
-      "price": 900,
-      "quantity": 80
-    },
-    {
-      "id": 12,
-      "name": "Captopril",
-      "description": "ACE inhibitor used to treat high blood pressure.",
-      "image": "https://placehold.co/300x300?text=Captopril",
-      "price": 500,
-      "quantity": 60
-    },
-    {
-      "id": 13,
-      "name": "Atenolol",
-      "description": "Beta blocker used for high blood pressure.",
-      "image": "https://placehold.co/300x300?text=Atenolol",
-      "price": 750,
-      "quantity": 70
-    },
-    {
-      "id": 14,
-      "name": "Metformin",
-      "description": "Used to treat type 2 diabetes.",
-      "image": "https://placehold.co/300x300?text=Metformin",
-      "price": 650,
-      "quantity": 100
-    },
-    {
-      "id": 15,
-      "name": "Glibenclamide",
-      "description": "Oral hypoglycemic used for diabetes management.",
-      "image": "https://placehold.co/300x300?text=Glibenclamide",
-      "price": 550,
-      "quantity": 80
-    },
-    {
-      "id": 16,
-      "name": "Salbutamol",
-      "description": "Bronchodilator used in asthma treatment.",
-      "image": "https://placehold.co/300x300?text=Salbutamol",
-      "price": 1000,
-      "quantity": 60
-    },
-    {
-      "id": 17,
-      "name": "Beclomethasone",
-      "description": "Corticosteroid inhaler for asthma.",
-      "image": "https://placehold.co/300x300?text=Beclomethasone",
-      "price": 1100,
-      "quantity": 50
-    },
-    {
-      "id": 18,
-      "name": "Montelukast",
-      "description": "Used for asthma and allergic rhinitis.",
-      "image": "https://placehold.co/300x300?text=Montelukast",
-      "price": 1200,
-      "quantity": 70
-    },
-    {
-      "id": 19,
-      "name": "Ranitidine",
-      "description": "Reduces stomach acid production.",
-      "image": "https://placehold.co/300x300?text=Ranitidine",
-      "price": 650,
-      "quantity": 90
-    },
-    {
-      "id": 20,
-      "name": "Loratadine",
-      "description": "Antihistamine for allergies.",
-      "image": "https://placehold.co/300x300?text=Loratadine",
-      "price": 500,
-      "quantity": 100
-    },
-    {
-      "id": 21,
-      "name": "Cetirizine",
-      "description": "Antihistamine for allergy relief.",
-      "image": "https://placehold.co/300x300?text=Cetirizine",
-      "price": 550,
-      "quantity": 80
-    },
-    {
-      "id": 22,
-      "name": "Diphenhydramine",
-      "description": "Antihistamine used for allergies and insomnia.",
-      "image": "https://placehold.co/300x300?text=Diphenhydramine",
-      "price": 600,
-      "quantity": 70
-    },
-    {
-      "id": 23,
-      "name": "Prednisolone",
-      "description": "Steroid used for reducing inflammation.",
-      "image": "https://placehold.co/300x300?text=Prednisolone",
-      "price": 700,
-      "quantity": 60
-    },
-    {
-      "id": 24,
-      "name": "Hydrocortisone",
-      "description": "Topical steroid for skin inflammation.",
-      "image": "https://placehold.co/300x300?text=Hydrocortisone",
-      "price": 400,
-      "quantity": 80
-    },
-    {
-      "id": 25,
-      "name": "Albendazole",
-      "description": "Antihelminthic used for parasitic infections.",
-      "image": "https://placehold.co/300x300?text=Albendazole",
-      "price": 300,
-      "quantity": 90
-    },
-    {
-      "id": 26,
-      "name": "Mebendazole",
-      "description": "Used to treat worm infections.",
-      "image": "https://placehold.co/300x300?text=Mebendazole",
-      "price": 350,
-      "quantity": 85
-    },
-    {
-      "id": 27,
-      "name": "Artemether-Lumefantrine",
-      "description": "Antimalarial combination therapy.",
-      "image": "https://placehold.co/300x300?text=Artemether-Lumefantrine",
-      "price": 2500,
-      "quantity": 40
-    },
-    {
-      "id": 28,
-      "name": "Ferrous Sulfate",
-      "description": "Iron supplement used for anemia.",
-      "image": "https://placehold.co/300x300?text=Ferrous+Sulfate",
-      "price": 400,
-      "quantity": 100
-    },
-    {
-      "id": 29,
-      "name": "Folic Acid",
-      "description": "Vitamin supplement, especially important in pregnancy.",
-      "image": "https://placehold.co/300x300?text=Folic+Acid",
-      "price": 300,
-      "quantity": 120
-    },
-    {
-      "id": 30,
-      "name": "Vitamin C",
-      "description": "Essential vitamin and antioxidant.",
-      "image": "https://placehold.co/300x300?text=Vitamin+C",
-      "price": 350,
-      "quantity": 150
-    },
-    {
-      "id": 31,
-      "name": "Vitamin D",
-      "description": "Essential for bone health.",
-      "image": "https://placehold.co/300x300?text=Vitamin+D",
-      "price": 500,
-      "quantity": 130
-    },
-    {
-      "id": 32,
-      "name": "Calcium Carbonate",
-      "description": "Supplement for calcium intake.",
-      "image": "https://placehold.co/300x300?text=Calcium+Carbonate",
-      "price": 450,
-      "quantity": 110
-    },
-    {
-      "id": 33,
-      "name": "Lansoprazole",
-      "description": "Proton pump inhibitor for acid reflux.",
-      "image": "https://placehold.co/300x300?text=Lansoprazole",
-      "price": 700,
-      "quantity": 90
-    },
-    {
-      "id": 34,
-      "name": "Esomeprazole",
-      "description": "Proton pump inhibitor for acid reflux.",
-      "image": "https://placehold.co/300x300?text=Esomeprazole",
-      "price": 750,
-      "quantity": 85
-    },
-    {
-      "id": 35,
-      "name": "Rabeprazole",
-      "description": "Reduces stomach acid production.",
-      "image": "https://placehold.co/300x300?text=Rabeprazole",
-      "price": 800,
-      "quantity": 80
-    },
-    {
-      "id": 36,
-      "name": "Doxycycline",
-      "description": "Antibiotic for various infections.",
-      "image": "https://placehold.co/300x300?text=Doxycycline",
-      "price": 900,
-      "quantity": 70
-    },
-    {
-      "id": 37,
-      "name": "Clindamycin",
-      "description": "Antibiotic used for bacterial infections.",
-      "image": "https://placehold.co/300x300?text=Clindamycin",
-      "price": 850,
-      "quantity": 60
-    },
-    {
-      "id": 38,
-      "name": "Vancomycin",
-      "description": "Antibiotic for severe infections.",
-      "image": "https://placehold.co/300x300?text=Vancomycin",
-      "price": 5000,
-      "quantity": 30
-    },
-    {
-      "id": 39,
-      "name": "Ceftriaxone",
-      "description": "Broad-spectrum antibiotic.",
-      "image": "https://placehold.co/300x300?text=Ceftriaxone",
-      "price": 1500,
-      "quantity": 40
-    },
-    {
-      "id": 40,
-      "name": "Meropenem",
-      "description": "Carbapenem antibiotic for severe infections.",
-      "image": "https://placehold.co/300x300?text=Meropenem",
-      "price": 6000,
-      "quantity": 25
-    },
-    {
-      "id": 41,
-      "name": "Aztreonam",
-      "description": "Antibiotic used for Gram-negative bacteria.",
-      "image": "https://placehold.co/300x300?text=Aztreonam",
-      "price": 3500,
-      "quantity": 35
-    },
-    {
-      "id": 42,
-      "name": "Gentamicin",
-      "description": "Antibiotic used for various infections.",
-      "image": "https://placehold.co/300x300?text=Gentamicin",
-      "price": 800,
-      "quantity": 50
-    },
-    {
-      "id": 43,
-      "name": "Amikacin",
-      "description": "Antibiotic for severe infections.",
-      "image": "https://placehold.co/300x300?text=Amikacin",
-      "price": 1000,
-      "quantity": 45
-    },
-    {
-      "id": 44,
-      "name": "Levofloxacin",
-      "description": "Broad-spectrum antibiotic.",
-      "image": "https://placehold.co/300x300?text=Levofloxacin",
-      "price": 1200,
-      "quantity": 50
-    },
-    {
-      "id": 45,
-      "name": "Moxifloxacin",
-      "description": "Antibiotic for respiratory infections.",
-      "image": "https://placehold.co/300x300?text=Moxifloxacin",
-      "price": 1300,
-      "quantity": 45
-    },
-    {
-      "id": 46,
-      "name": "Nitrofurantoin",
-      "description": "Used to treat urinary tract infections.",
-      "image": "https://placehold.co/300x300?text=Nitrofurantoin",
-      "price": 600,
-      "quantity": 70
-    },
-    {
-      "id": 47,
-      "name": "Tetracycline",
-      "description": "Broad-spectrum antibiotic.",
-      "image": "https://placehold.co/300x300?text=Tetracycline",
-      "price": 700,
-      "quantity": 60
-    },
-    {
-      "id": 48,
-      "name": "Chloramphenicol",
-      "description": "Antibiotic for serious infections.",
-      "image": "https://placehold.co/300x300?text=Chloramphenicol",
-      "price": 650,
-      "quantity": 50
-    },
-    {
-      "id": 49,
-      "name": "Linezolid",
-      "description": "Antibiotic used for resistant infections.",
-      "image": "https://placehold.co/300x300?text=Linezolid",
-      "price": 3000,
-      "quantity": 35
-    },
-    {
-      "id": 50,
-      "name": "Loperamide",
-      "description": "Used to treat diarrhea.",
-      "image": "https://placehold.co/300x300?text=Loperamide",
-      "price": 400,
-      "quantity": 80
-    },
-    {
-      "id": 51,
-      "name": "Oral Rehydration Salts (ORS)",
-      "description": "Rehydrates and replaces electrolytes.",
-      "image": "https://placehold.co/300x300?text=Oral+Rehydration+Salts+%28ORS%29",
-      "price": 150,
-      "quantity": 200
-    },
-    {
-      "id": 52,
-      "name": "Zinc Sulfate",
-      "description": "Supplement used for zinc deficiency.",
-      "image": "https://placehold.co/300x300?text=Zinc+Sulfate",
-      "price": 200,
-      "quantity": 150
-    },
-    {
-      "id": 53,
-      "name": "Cloxacillin",
-      "description": "Antibiotic used for staphylococcal infections.",
-      "image": "https://placehold.co/300x300?text=Cloxacillin",
-      "price": 500,
-      "quantity": 70
-    },
-    {
-      "id": 54,
-      "name": "Fluconazole",
-      "description": "Antifungal medication.",
-      "image": "https://placehold.co/300x300?text=Fluconazole",
-      "price": 1200,
-      "quantity": 60
-    },
-    {
-      "id": 55,
-      "name": "Itraconazole",
-      "description": "Antifungal used for systemic infections.",
-      "image": "https://placehold.co/300x300?text=Itraconazole",
-      "price": 1500,
-      "quantity": 55
-    },
-    {
-      "id": 56,
-      "name": "Miconazole",
-      "description": "Antifungal cream for skin infections.",
-      "image": "https://placehold.co/300x300?text=Miconazole",
-      "price": 800,
-      "quantity": 75
-    },
-    {
-      "id": 57,
-      "name": "Nystatin",
-      "description": "Antifungal for candidiasis.",
-      "image": "https://placehold.co/300x300?text=Nystatin",
-      "price": 700,
-      "quantity": 80
-    },
-    {
-      "id": 58,
-      "name": "Saline Nasal Spray",
-      "description": "Used for nasal congestion relief.",
-      "image": "https://placehold.co/300x300?text=Saline+Nasal+Spray",
-      "price": 300,
-      "quantity": 100
-    },
-    {
-      "id": 59,
-      "name": "Xylometazoline",
-      "description": "Decongestant nasal spray.",
-      "image": "https://placehold.co/300x300?text=Xylometazoline",
-      "price": 500,
-      "quantity": 90
-    },
-    {
-      "id": 60,
-      "name": "Phenylephrine",
-      "description": "Decongestant and vasopressor.",
-      "image": "https://placehold.co/300x300?text=Phenylephrine",
-      "price": 550,
-      "quantity": 80
-    },
-    {
-      "id": 61,
-      "name": "Fluticasone Propionate",
-      "description": "Corticosteroid for asthma management.",
-      "image": "https://placehold.co/300x300?text=Fluticasone+Propionate",
-      "price": 1300,
-      "quantity": 60
-    },
-    {
-      "id": 62,
-      "name": "Budesonide",
-      "description": "Steroid inhaler for asthma.",
-      "image": "https://placehold.co/300x300?text=Budesonide",
-      "price": 1250,
-      "quantity": 65
-    },
-    {
-      "id": 63,
-      "name": "Terbutaline",
-      "description": "Bronchodilator used for asthma.",
-      "image": "https://placehold.co/300x300?text=Terbutaline",
-      "price": 900,
-      "quantity": 50
-    },
-    {
-      "id": 64,
-      "name": "Regular Insulin",
-      "description": "Short-acting insulin for diabetes management.",
-      "image": "https://placehold.co/300x300?text=Regular+Insulin",
-      "price": 2500,
-      "quantity": 40
-    },
-    {
-      "id": 65,
-      "name": "Glargine Insulin",
-      "description": "Long-acting insulin for diabetes management.",
-      "image": "https://placehold.co/300x300?text=Glargine+Insulin",
-      "price": 3000,
-      "quantity": 35
-    },
-    {
-      "id": 66,
-      "name": "Insulin Detemir",
-      "description": "Long-acting insulin alternative.",
-      "image": "https://placehold.co/300x300?text=Insulin+Detemir",
-      "price": 2800,
-      "quantity": 30
-    },
-    {
-      "id": 67,
-      "name": "Risperidone",
-      "description": "Antipsychotic used for schizophrenia and bipolar disorder.",
-      "image": "https://placehold.co/300x300?text=Risperidone",
-      "price": 1500,
-      "quantity": 50
-    },
-    {
-      "id": 68,
-      "name": "Olanzapine",
-      "description": "Antipsychotic for mental health disorders.",
-      "image": "https://placehold.co/300x300?text=Olanzapine",
-      "price": 1400,
-      "quantity": 55
-    },
-    {
-      "id": 69,
-      "name": "Haloperidol",
-      "description": "Antipsychotic for schizophrenia and acute psychosis.",
-      "image": "https://placehold.co/300x300?text=Haloperidol",
-      "price": 800,
-      "quantity": 60
-    },
-    {
-      "id": 70,
-      "name": "Lithium Carbonate",
-      "description": "Mood stabilizer used for bipolar disorder.",
-      "image": "https://placehold.co/300x300?text=Lithium+Carbonate",
-      "price": 1000,
-      "quantity": 45
-    },
-    {
-      "id": 71,
-      "name": "Carbamazepine",
-      "description": "Anticonvulsant used for epilepsy and bipolar disorder.",
-      "image": "https://placehold.co/300x300?text=Carbamazepine",
-      "price": 900,
-      "quantity": 50
-    },
-    {
-      "id": 72,
-      "name": "Valproic Acid",
-      "description": "Anticonvulsant and mood stabilizer.",
-      "image": "https://placehold.co/300x300?text=Valproic+Acid",
-      "price": 950,
-      "quantity": 50
-    },
-    {
-      "id": 73,
-      "name": "Fluoxetine",
-      "description": "Antidepressant used for depression and anxiety.",
-      "image": "https://placehold.co/300x300?text=Fluoxetine",
-      "price": 1200,
-      "quantity": 60
-    },
-    {
-      "id": 74,
-      "name": "Sertraline",
-      "description": "Antidepressant used for depression and anxiety.",
-      "image": "https://placehold.co/300x300?text=Sertraline",
-      "price": 1150,
-      "quantity": 65
-    },
-    {
-      "id": 75,
-      "name": "Amitriptyline",
-      "description": "Tricyclic antidepressant used for depression.",
-      "image": "https://placehold.co/300x300?text=Amitriptyline",
-      "price": 900,
-      "quantity": 70
-    },
-    {
-      "id": 76,
-      "name": "Citalopram",
-      "description": "SSRI used for depression.",
-      "image": "https://placehold.co/300x300?text=Citalopram",
-      "price": 1100,
-      "quantity": 75
-    },
-    {
-      "id": 77,
-      "name": "Lorazepam",
-      "description": "Benzodiazepine used for anxiety.",
-      "image": "https://placehold.co/300x300?text=Lorazepam",
-      "price": 800,
-      "quantity": 60
-    },
-    {
-      "id": 78,
-      "name": "Diazepam",
-      "description": "Benzodiazepine used for anxiety and seizures.",
-      "image": "https://placehold.co/300x300?text=Diazepam",
-      "price": 850,
-      "quantity": 60
-    },
-    {
-      "id": 79,
-      "name": "Midazolam",
-      "description": "Benzodiazepine used for sedation.",
-      "image": "https://placehold.co/300x300?text=Midazolam",
-      "price": 1000,
-      "quantity": 50
-    },
-    {
-      "id": 80,
-      "name": "Clonazepam",
-      "description": "Benzodiazepine used for seizures and panic disorders.",
-      "image": "https://placehold.co/300x300?text=Clonazepam",
-      "price": 900,
-      "quantity": 55
-    },
-    {
-      "id": 81,
-      "name": "Alprazolam",
-      "description": "Benzodiazepine used for anxiety and panic disorders.",
-      "image": "https://placehold.co/300x300?text=Alprazolam",
-      "price": 950,
-      "quantity": 60
-    },
-    {
-      "id": 82,
-      "name": "Zolpidem",
-      "description": "Sedative used for insomnia.",
-      "image": "https://placehold.co/300x300?text=Zolpidem",
-      "price": 1200,
-      "quantity": 50
-    },
-    {
-      "id": 83,
-      "name": "Sildenafil",
-      "description": "Used for erectile dysfunction.",
-      "image": "https://placehold.co/300x300?text=Sildenafil",
-      "price": 2000,
-      "quantity": 40
-    },
-    {
-      "id": 84,
-      "name": "Tadalafil",
-      "description": "Used for erectile dysfunction.",
-      "image": "https://placehold.co/300x300?text=Tadalafil",
-      "price": 2500,
-      "quantity": 40
-    },
-    {
-      "id": 85,
-      "name": "Nifedipine",
-      "description": "Calcium channel blocker for hypertension and angina.",
-      "image": "https://placehold.co/300x300?text=Nifedipine",
-      "price": 1000,
-      "quantity": 70
-    },
-    {
-      "id": 86,
-      "name": "Diltiazem",
-      "description": "Calcium channel blocker for heart conditions.",
-      "image": "https://placehold.co/300x300?text=Diltiazem",
-      "price": 1100,
-      "quantity": 70
-    },
-    {
-      "id": 87,
-      "name": "Verapamil",
-      "description": "Calcium channel blocker used for heart rate control.",
-      "image": "https://placehold.co/300x300?text=Verapamil",
-      "price": 1150,
-      "quantity": 65
-    },
-    {
-      "id": 88,
-      "name": "Furosemide",
-      "description": "Diuretic used for edema and hypertension.",
-      "image": "https://placehold.co/300x300?text=Furosemide",
-      "price": 500,
-      "quantity": 80
-    },
-    {
-      "id": 89,
-      "name": "Spironolactone",
-      "description": "Diuretic with anti-androgen properties.",
-      "image": "https://placehold.co/300x300?text=Spironolactone",
-      "price": 700,
-      "quantity": 75
-    },
-    {
-      "id": 90,
-      "name": "Hydrochlorothiazide",
-      "description": "Thiazide diuretic for hypertension.",
-      "image": "https://placehold.co/300x300?text=Hydrochlorothiazide",
-      "price": 450,
-      "quantity": 90
-    },
-    {
-      "id": 91,
-      "name": "Enalapril",
-      "description": "ACE inhibitor used for hypertension.",
-      "image": "https://placehold.co/300x300?text=Enalapril",
-      "price": 800,
-      "quantity": 70
-    },
-    {
-      "id": 92,
-      "name": "Valsartan",
-      "description": "Angiotensin II receptor blocker for hypertension.",
-      "image": "https://placehold.co/300x300?text=Valsartan",
-      "price": 900,
-      "quantity": 65
-    },
-    {
-      "id": 93,
-      "name": "Metoprolol",
-      "description": "Beta blocker used for hypertension and heart conditions.",
-      "image": "https://placehold.co/300x300?text=Metoprolol",
-      "price": 850,
-      "quantity": 70
-    },
-    {
-      "id": 94,
-      "name": "Bisoprolol",
-      "description": "Beta blocker used for heart failure and hypertension.",
-      "image": "https://placehold.co/300x300?text=Bisoprolol",
-      "price": 900,
-      "quantity": 60
-    },
-    {
-      "id": 95,
-      "name": "Atorvastatin",
-      "description": "Used to lower cholesterol levels.",
-      "image": "https://placehold.co/300x300?text=Atorvastatin",
-      "price": 1100,
-      "quantity": 80
-    },
-    {
-      "id": 96,
-      "name": "Rosuvastatin",
-      "description": "Statin used for managing cholesterol.",
-      "image": "https://placehold.co/300x300?text=Rosuvastatin",
-      "price": 1200,
-      "quantity": 75
-    },
-    {
-      "id": 97,
-      "name": "Pantoprazole",
-      "description": "Proton pump inhibitor for acid reflux.",
-      "image": "https://placehold.co/300x300?text=Pantoprazole",
-      "price": 800,
-      "quantity": 85
-    },
-    {
-      "id": 98,
-      "name": "Levothyroxine",
-      "description": "Hormone replacement for hypothyroidism.",
-      "image": "https://placehold.co/300x300?text=Levothyroxine",
-      "price": 950,
-      "quantity": 90
-    },
-    {
-      "id": 99,
-      "name": "Methimazole",
-      "description": "Used to treat hyperthyroidism.",
-      "image": "https://placehold.co/300x300?text=Methimazole",
-      "price": 850,
-      "quantity": 80
-    },
-    {
-      "id": 100,
-      "name": "Clotrimazole",
-      "description": "Antifungal used for skin infections.",
-      "image": "https://placehold.co/300x300?text=Clotrimazole",
-      "price": 800,
-      "quantity": 70
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Emzor Paracetamol Syrup",
+    "image": "https://megacare.ng/media/image/2_IEIRDvj.png",
+    "description": "A syrup used to relieve pain and reduce fever in children.",
+    "quantity": 100,
+    "price": 1500
+  },
+  {
+    "id": 2,
+    "name": "Ibuprofen Suspension",
+    "image": "https://www.supermart.ng/cdn/shop/products/Afrab-Ibuprofen-Suspension-For-Relief-Of-Pain-Fever-100-ml-Supermart-ng-3009.jpg?v=1690555866",
+    "description": "A liquid pain reliever and anti-inflammatory for children.",
+    "quantity": 80,
+    "price": 2000
+  },
+  {
+    "id": 3,
+    "name": "Vitamin C Gummies",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKdE5iNL0y5JbMHqrZ1FmKl8j0Kp42vGQFIRKIuALeOVPVnMrdNQmRfvkuAjKjGl-ZMg&usqp=CAU",
+    "description": "Chewable vitamin C supplements to boost children's immunity.",
+    "quantity": 120,
+    "price": 2500
+  },
+  {
+    "id": 4,
+    "name": "Amoxicillin Suspension",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFNqNcIF_M8SoBVn-kpUPtvSPLgdgUEnVMeBfNYyhiYUHvNR77ghwKanCtI9lt7TKjOjM&usqp=CAU",
+    "description": "An antibiotic used to treat bacterial infections in children.",
+    "quantity": 90,
+    "price": 3000
+  },
+  {
+    "id": 5,
+    "name": "Emzolyn Cough Syrup for Children",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD7iCgIdydDNhOAert4BrQlDH2w67yPSYuRSvwuPicI5Jv2kWAbnkKW_glZQTadQiA18k&usqp=CAU",
+    "description": "A mild syrup for relieving cough in children.",
+    "quantity": 60,
+    "price": 1800
+  },
+  {
+    "id": 6,
+    "name": "Zinc-AG Syrup",
+    "image": "https://silcopharma.com/wp-content/uploads/2018/10/Zinc-AG-syrup-copy-600x400.jpg",
+    "description": "A syrup that helps boost immunity and supports growth in children.",
+    "quantity": 110,
+    "price": 2200
+  },
+  {
+    "id": 7,
+    "name": "Loratadine Syrup",
+    "image": "https://images.heb.com/is/image/HEBGrocery/001481984-1",
+    "description": "An antihistamine syrup for treating allergies in children.",
+    "quantity": 75,
+    "price": 2600
+  },
+  {
+    "id": 8,
+    "name": "ORS Sachets",
+    "image": "https://www.supermart.ng/cdn/shop/files/medv333_g-oral_oral_dehydration_salts_bp_27-9_g_3_sachets.jpg?v=1689009120",
+    "description": "Oral Rehydration Salt sachets to prevent dehydration.",
+    "quantity": 150,
+    "price": 1000
+  },
+  {
+    "id": 9,
+    "name": "Emvite Multivitamin Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7L5DhhHfl1cCzI29VMwvRngk4iLfD4W0jmeDe72yu60q7d-HeYIx5pCC_W5l09oWlI2o&usqp=CAU",
+    "description": "A syrup containing essential vitamins for children's growth and development.",
+    "quantity": 85,
+    "price": 2800
+  },
+  {
+    "id": 10,
+    "name": "Calcium Syrup",
+    "image": "https://medecify.com/storages/2024/07/IMG-35-scaled.jpeg",
+    "description": "A syrup to support strong bones and teeth in children.",
+    "quantity": 95,
+    "price": 2700
+  },
+  {
+    "id": 11,
+    "name": "Moxie Paracetamol",
+    "image": "https://rxalldelivered.com/image/product/6277/MEDIUM/0/8907?t=1605096224",
+    "description": "Strawberry-flavored paracetamol syrup for children.",
+    "quantity": 100,
+    "price": 1500
+  },
+  {
+    "id": 12,
+    "name": "Moxie Vitamin C",
+    "image": "https://cedarcarepharm.com/wp-content/uploads/2023/02/moxie-vitamin-c_503x.webp",
+    "description": "Orange-flavored vitamin C syrup to boost immunity.",
+    "quantity": 120,
+    "price": 2500
+  },
+  {
+    "id": 13,
+    "name": "Piriton Expectorant Linctus",
+    "image": "https://www.supermart.ng/cdn/shop/files/OkeA4564.jpg?v=1688757639",
+    "description": "Cough syrup for children to relieve chesty coughs.",
+    "quantity": 60,
+    "price": 1630
+  },
+  {
+    "id": 14,
+    "name": "Benylin Children's Night Cough Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5dIuROvuG_sq3EyUGxu5v3Pp_OngdqNOOCAwTdAtxr29TXB0Nu_k9MjDzIDz5g3anqZw&usqp=CAU",
+    "description": "Cough syrup to relieve night-time coughs in children aged 6 years and above.",
+    "quantity": 50,
+    "price": 19800
+  },
+  {
+    "id": 15,
+    "name": "Nurofen for Children",
+    "image": "https://healthplusnigeria.com/cdn/shop/files/Nurofen_20for_20Children_20_28Ibuprofen_29_20Orange_20Syrup_20100mg-5ml.webp?v=1739898185",
+    "description": "Ibuprofen suspension for pain and fever relief in children aged 3 months to 9 years.",
+    "quantity": 70,
+    "price": 6820
+  },
+  {
+    "id": 16,
+    "name": "Sudocrem Antiseptic Healing Cream",
+    "image": "https://m.media-amazon.com/images/I/51jcxc5B7pL.jpg",
+    "description": "Cream for treating nappy rash and minor skin conditions in children.",
+    "quantity": 40,
+    "price": 5230
+  },
+  {
+    "id": 17,
+    "name": "Infacol Infant Drops",
+    "image": "https://www.supermart.ng/cdn/shop/files/dran88_infacol-infant-drops_300x300_13e4a5b0-f129-4fe0-b01a-68be771fcc4c.jpg?v=1689008517",
+    "description": "Oral suspension to relieve infant colic and griping pain.",
+    "quantity": 55,
+    "price": 13900
+  },
+  {
+    "id": 18,
+    "name": "Dentinox Colic Drops",
+    "image": "https://cfimages.gomed.ng/media/filer_public/a7/57/a757a947-e65b-445a-9448-9a714c0c583c/tmptmpme49t999.jpg",
+    "description": "Oral drops to relieve wind and griping pain in infants.",
+    "quantity": 65,
+    "price": 18000
+  },
+  {
+    "id": 19,
+    "name": "Bonjela Soothing Teething Gel",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmYCnBj888QS5lmeanc4mM_zPi_1Ykytdypl33MEcxYr7pzQc9Yj8Av6ACVWvUvMFkiYg&usqp=CAU",
+    "description": "Gel to soothe teething pain and discomfort in infants.",
+    "quantity": 45,
+    "price": 14400
+  },
+  {
+    "id": 20,
+    "name": "Benadryl Allergy Children's Syrup",
+    "image": "https://images.ctfassets.net/t975yazu1avh/31zmAYR54kmfOPAwhAjbs8/690b8183606eb7cadfd4fc54720b4826/benadryl-childrens-allergy-liquid-en-us.webp",
+    "description": "Syrup to relieve allergy symptoms in children.",
+    "quantity": 50,
+    "price": 11310
+  },
+  {
+    "id": 21,
+    "name": "Ceredin Multivitamin Syrup",
+    "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/vitamin-supplement/n/c/c/100-cenvitan-multivitamin-syrup-with-the-goodness-of-fresh-fruit-original-imaghg7ufz386n88.jpeg?q=90&crop=false",
+    "description": "A multivitamin syrup that supports children's growth and immunity.",
+    "quantity": 80,
+    "price": 3200
+  },
+  {
+    "id": 22,
+    "name": "Wellbaby Multivitamin Liquid",
+    "image": "https://m.media-amazon.com/images/I/61ZGwe6rHfL.jpg",
+    "description": "Multivitamin liquid with iron for infants and young children.",
+    "quantity": 70,
+    "price": 7500
+  },
+  {
+    "id": 23,
+    "name": "Actifed Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1_HpHCu-xav-rSUzfUB4oPpmmT7-AkZbAqqsft4_yn4bPH_mrmM7X5CvZ8WXql1p4K10&usqp=CAU",
+    "description": "Syrup for relieving cold and allergy symptoms in children.",
+    "quantity": 90,
+    "price": 2800
+  },
+  {
+    "id": 24,
+    "name": "Tuxil Junior Cough Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScmf46d7LGKD2jf6Qgqu2HeEkdhwt3svLVKVEtx_wyGD-FPpz6RO2vL36jwm3MifCNTzc&usqp=CAU",
+    "description": "Cough syrup specially formulated for young children.",
+    "quantity": 65,
+    "price": 2100
+  },
+  {
+    "id": 25,
+    "name": "Grip Water",
+    "image": "https://i5.walmartimages.com/asr/23cb17ed-1fc5-49ae-9ed2-932872a3da98.4117f0775fdd0239386fb0f8488aec78.jpeg",
+    "description": "A herbal liquid remedy for colic and stomach discomfort in babies.",
+    "quantity": 100,
+    "price": 1500
+  },
+  {
+    "id": 26,
+    "name": "Astymin Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0O8cOy6XR5Fq8bZoUVP5MeB9xhrCvB6r12vIACwuAJZxCha23j76zcAnfLewvuKQX6g&usqp=CAU",
+    "description": "Amino acid and multivitamin supplement for children's development.",
+    "quantity": 85,
+    "price": 4500
+  },
+  {
+    "id": 27,
+    "name": "Feroglobin Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT03cLUJoNyJvtOFMGYdqRSgmIEqQBGFwX-cX7licM1rmfmwMnFQvXEs7xiqTxtFt_qlcM&usqp=CAU",
+    "description": "Iron and vitamin B complex supplement for children.",
+    "quantity": 75,
+    "price": 5300
+  },
+  {
+    "id": 28,
+    "name": "Coughlin Cough Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEr6fnZlzgxrrZ9rXm9efbvop3wTztLT8DnrK1NQPiKrX5fz8PU9gzDo78O0p_Vf6mSu8&usqp=CAU",
+    "description": "Effective cough relief syrup for kids.",
+    "quantity": 70,
+    "price": 2400
+  },
+  {
+    "id": 29,
+    "name": "Maxical Syrup",
+    "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/ayurvedic/i/o/b/madaan-maxical-syrup-for-women-1-madaan-pharmaceuticals-original-imah2krtyh3ubfr9.jpeg?q=90&crop=false",
+    "description": "Calcium supplement for strong bones and teeth in children.",
+    "quantity": 65,
+    "price": 3000
+  },
+  {
+    "id": 30,
+    "name": "Zinplex Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXFz3ganLOIap1R_UzwZAEbHWPgDTI2bjdxn-t0O6b347zhTZF0VICjDygV8TBDRywKM&usqp=CAU",
+    "description": "Zinc and selenium supplement for immune support.",
+    "quantity": 90,
+    "price": 2900
+  },
+  {
+    "id": 31,
+    "name": "Glucose D Powder",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBnPKRTcznj4TNvbGsDU1ZUWwamnTBee5qvYobTehLARhu7qgVzzKS5kjLzn4p7fH_X0Y&usqp=CAU",
+    "description": "Instant energy booster for active children.",
+    "quantity": 120,
+    "price": 1700
+  },
+  {
+    "id": 32,
+    "name": "Immunace Junior Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbDdHlK307wvr_duf5bvfU2zzGfZNs5f1OJLjdeWqoa2xJEGdlwnWZfLhbJixaAbMz4g&usqp=CAU",
+    "description": "Syrup formulated to support children's immune systems.",
+    "quantity": 75,
+    "price": 6200
+  },
+  {
+    "id": 33,
+    "name": "Pediasure Complete Vanilla",
+    "image": "https://i.ebayimg.com/images/g/n7YAAOSw5MxkQBTk/s-l1200.png",
+    "description": "Nutritional supplement for children’s growth and development.",
+    "quantity": 50,
+    "price": 13500
+  },
+  {
+    "id": 34,
+    "name": "Neurobion Syrup",
+    "image": "https://m.media-amazon.com/images/I/71kTwUriMlL.jpg",
+    "description": "Vitamin B complex syrup for nerve health and energy.",
+    "quantity": 60,
+    "price": 4100
+  },
+  {
+    "id": 35,
+    "name": "Babyrex Cough Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvaTbuUYcxEm5Sie1P4-d7sK_rNJIsVawtgHUmZQElOpDvwJe66QDXd2DiQSp4ESmM1uo&usqp=CAU",
+    "description": "Cough syrup with expectorant for children.",
+    "quantity": 85,
+    "price": 2000
+  },
+  {
+    "id": 36,
+    "name": "Zincofer Syrup",
+    "image": "https://ik.imagekit.io/wlfr/wellness/images/products/213772-1.jpg",
+    "description": "Iron and zinc supplement to prevent anemia in children.",
+    "quantity": 70,
+    "price": 3100
+  },
+  {
+    "id": 37,
+    "name": "Colic Drops",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Rka0pVSnUGRqH_rAby76uEmdb5lVmWAUGTkhVe0ajgeyQSbEksgK65ksYOY2XHuGA2s&usqp=CAU",
+    "description": "Oral drops for relief of colic and wind in infants.",
+    "quantity": 50,
+    "price": 2200
+  },
+  {
+    "id": 38,
+    "name": "Pyrantrin Suspension",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3dCFTTHg7pxmkXllyTxvAi482DC7h9leyE6qNdVeOEUfFuVp8tzyOsRwZk30Ls4EA4Qg&usqp=CAU",
+    "description": "Deworming suspension for children.",
+    "quantity": 95,
+    "price": 2700
+  },
+  {
+    "id": 39,
+    "name": "Vidaylin Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvxRSlh7cgcLDj_WgmB1_OPY_kBg-o8BJdarluYmF_58PxuQd0VjMTLAsl0FpQqZXSwYI&usqp=CAU",
+    "description": "Multivitamin syrup to support healthy growth in children.",
+    "quantity": 80,
+    "price": 3900
+  },
+  {
+    "id": 40,
+    "name": "Cetirizine Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeSJs78kuRIZjNb5SjeM61M5FKZ-FXOD4mLQ&s",
+    "description": "Antihistamine syrup for allergies in children.",
+    "quantity": 100,
+    "price": 3300
+  },
+  {
+    "id": 41,
+    "name": "Tuxil Forte Cough Syrup",
+    "image": "https://fidson.com/wp-content/uploads/2022/09/Tuxil-N.jpg",
+    "description": "Cough syrup for children with persistent coughs.",
+    "quantity": 80,
+    "price": 2500
+  },
+  {
+    "id": 42,
+    "name": "Coflin Cough Syrup",
+    "image": "https://www.amkamed.com/web/image/product.template/658/image_512/Coflin%20Expectorant%20Cough%20Syrup%20100ml?unique=a6191e9",
+    "description": "Cough syrup with honey and herbal extracts for children.",
+    "quantity": 90,
+    "price": 2300
+  },
+  {
+    "id": 43,
+    "name": "Ciprotab Suspension",
+    "image": "https://healthace.ng/wp-content/uploads/2024/05/Ciprotab-eyedrop-300x300.png",
+    "description": "Antibiotic suspension for bacterial infections in children.",
+    "quantity": 60,
+    "price": 4700
+  },
+  {
+    "id": 44,
+    "name": "Erythrocin Suspension",
+    "image": "https://thehouseofgoodies.com/cdn/shop/products/y4miGVq8SUtQ6mMldbJD9chXYzL9mbwAt8CDHFrTSkc7bGJGeY1tph8WQMN5o-QKVsOpWrCrqQSLtspnm8geLCsR8Q0_EDj_ay3kDuwjySlbx-QxMoFVo9RJhoSyA-9EbvlB5aMpzIV0o9hzeeMYbs_jpGfE3mYfI3fsZUW9zjfbCTv5hL5Uj2o_405x.jpg?v=1664019115",
+    "description": "Erythromycin antibiotic suspension for infections.",
+    "quantity": 55,
+    "price": 5100
+  },
+  {
+    "id": 45,
+    "name": "Kidicol Multivitamin Syrup",
+    "image": "https://vendor.shaqexpress.com/storage/20625/conversions/kb0jPlSS0cf9RlZE36AME2uSA1Y1v3-metaS2lkaWNzIE11bHRpdml0YW1pbiAyMDBtbCBTeXJ1cCB4MS5wbmc=--small.png",
+    "description": "Multivitamin syrup enriched with iron and zinc.",
+    "quantity": 85,
+    "price": 3500
+  },
+  {
+    "id": 46,
+    "name": "Becosules Syrup",
+    "image": "https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/20984f7008634437883ad08f145b42ad.jpg",
+    "description": "Vitamin B-complex syrup for children's overall health.",
+    "quantity": 65,
+    "price": 2900
+  },
+  {
+    "id": 47,
+    "name": "DeDeon's Baby Cough Syrup",
+    "image": "https://medecify.com/storages/2024/10/C-C-C-F-B-3000x3876.jpeg",
+    "description": "Mild cough syrup for infants and toddlers.",
+    "quantity": 70,
+    "price": 2700
+  },
+  {
+    "id": 48,
+    "name": "Maxipro Amoxicillin Suspension",
+    "image": "https://pokupharmagh.com/wp-content/uploads/2017/07/Amoxicillin-750x688.png",
+    "description": "Broad-spectrum antibiotic suspension for children.",
+    "quantity": 75,
+    "price": 4900
+  },
+  {
+    "id": 49,
+    "name": "SMA Gold Infant Formula",
+    "image": "https://medecify.com/storages/2023/02/SMA-Gold-3-From-1-3-Years-Toddler-Milk-400g.webp",
+    "description": "Infant formula with essential nutrients for healthy development.",
+    "quantity": 50,
+    "price": 15000
+  },
+  {
+    "id": 50,
+    "name": "Cerelac Baby Cereal",
+    "image": "https://m.media-amazon.com/images/I/71RnBv+IeBL._SL1500_.jpg",
+    "description": "Fortified baby cereal with essential vitamins and minerals.",
+    "quantity": 90,
+    "price": 4500
+  },
+  {
+    "id": 51,
+    "name": "NutriStart Multivitamin Drops",
+    "image": "https://m.media-amazon.com/images/I/71rgmgCYjaL.jpg",
+    "description": "Multivitamin drops for infants and toddlers to support growth.",
+    "quantity": 80,
+    "price": 3200
+  },
+  {
+    "id": 52,
+    "name": "Zinolor Zinc Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyg7Jq-4WxvauSPbMI8Hu_dDOaYsNa57KNPrvwqKPr4ADNsEpMhtDgNYKGFBB5LiN6dKE&usqp=CAU",
+    "description": "Zinc supplement for boosting children's immune systems.",
+    "quantity": 70,
+    "price": 2800
+  },
+  {
+    "id": 53,
+    "name": "Otrivin Baby Nasal Drops",
+    "image": "https://www.padekhealthng.com/wp-content/uploads/2023/01/Otrivin-0.05-Children-Nasal-Drops-10ml.jpg",
+    "description": "Nasal drops to relieve congestion in infants and children.",
+    "quantity": 50,
+    "price": 4500
+  },
+  {
+    "id": 54,
+    "name": "Astyfer Syrup",
+    "image": "https://erp.eha.ng/web/image/product.template/20743/image_1920?unique=f0879f5",
+    "description": "Iron and folic acid supplement for preventing anemia in children.",
+    "quantity": 85,
+    "price": 3100
+  },
+  {
+    "id": 55,
+    "name": "Jikokoa Kids Immunity Booster",
+    "image": "https://m.media-amazon.com/images/I/51B5Lj-1xpL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Herbal immunity booster syrup for children.",
+    "quantity": 60,
+    "price": 3900
+  },
+  {
+    "id": 56,
+    "name": "Multivite Syrup",
+    "image": "https://www.ikonlinestore.com/wp-content/uploads/2023/07/multivite-syrup.png",
+    "description": "A complete multivitamin syrup for children's overall health.",
+    "quantity": 95,
+    "price": 2700
+  },
+  {
+    "id": 57,
+    "name": "Dexorange Syrup",
+    "image": "https://oneshopsupplements.com/wp-content/uploads/2024/10/64.png",
+    "description": "Iron and vitamin B12 supplement for preventing anemia in kids.",
+    "quantity": 75,
+    "price": 3400
+  },
+  {
+    "id": 58,
+    "name": "Vicks BabyRub",
+    "image": "https://www.cellsii.com/images/detailed/20/Vicks-Baby-Rub.jpg",
+    "description": "Soothing chest rub for babies to relieve congestion and discomfort.",
+    "quantity": 80,
+    "price": 4100
+  },
+  {
+    "id": 59,
+    "name": "Colic Calm Drops",
+    "image": "https://www.babycity.co.za/api/catalog/product/3/1/313992000225_9de1b6df85245a8c9a529595c1ff7941.jpg?store=default&image-type=image",
+    "description": "Homeopathic remedy for colic relief in babies.",
+    "quantity": 65,
+    "price": 7200
+  },
+  {
+    "id": 60,
+    "name": "Bonaplex Syrup",
+    "image": "https://trafalgargategh.com/wp-content/uploads/2023/07/1685614099_bonaplex.png",
+    "description": "Multivitamin and iron supplement for children’s growth.",
+    "quantity": 90,
+    "price": 3800
+  },
+  {
+    "id": 61,
+    "name": "Zedex Junior Cough Syrup",
+    "image": "https://www.practostatic.com/practopedia-images/v3/res-750/brozedex-ls-kid-syrup-60ml_fc760344-1598-4084-96c5-91d3131e48f9.JPG",
+    "description": "Cough syrup formulated for young children with persistent coughs.",
+    "quantity": 55,
+    "price": 3500
+  },
+  {
+    "id": 62,
+    "name": "Lactogen Infant Formula",
+    "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill%28white%29/product/93/9894201/1.jpg?8389",
+    "description": "Infant formula fortified with essential nutrients for babies.",
+    "quantity": 50,
+    "price": 13000
+  },
+  {
+    "id": 63,
+    "name": "Alpraz Syrup",
+    "image": "https://uploads-ssl.webflow.com/632e0b9b3c0e35bf14a9d5f3/647f62bc9f692bf5b4d14a62_647f3fb598f1f83d49f20ce8_Amber%2520Bottle%2520Compressed.webp",
+    "description": "Antihistamine syrup for treating allergies in children.",
+    "quantity": 80,
+    "price": 2900
+  },
+  {
+    "id": 64,
+    "name": "Zimaks Suspension",
+    "image": "https://i.chaldn.com/_mpimage/zimax-suspension-15ml-1-pc?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D107620&q=low&v=1",
+    "description": "Cefixime antibiotic suspension for bacterial infections.",
+    "quantity": 70,
+    "price": 5000
+  },
+  {
+    "id": 65,
+    "name": "Calpol Infant Suspension",
+    "image": "https://images.ctfassets.net/b7vjv6cc1lvj/4gLU4zrevgxedLSr5kEDJk/2b054675bebb979c7e67b0c361e88101/CAL_EMEA_UK_5010123722630_8392011_Original_Infant_Suspension_100ml_000__1_.webp",
+    "description": "Paracetamol suspension for pain and fever relief in infants.",
+    "quantity": 100,
+    "price": 3700
+  },
+  {
+    "id": 66,
+    "name": "Nutriben Cereals",
+    "image": "https://philhallmark.com/wp-content/uploads/2023/09/Untitled-design-2023-10-05T150020.592.jpg",
+    "description": "Fortified baby cereal with essential nutrients.",
+    "quantity": 60,
+    "price": 6800
+  },
+  {
+    "id": 67,
+    "name": "Zedcal Syrup",
+    "image": "https://timsnutrition.co.ke/wp-content/uploads/2024/02/Untitled-design-2024-02-18T132639.801.png",
+    "description": "Calcium and vitamin D supplement for strong bones.",
+    "quantity": 85,
+    "price": 3300
+  },
+  {
+    "id": 68,
+    "name": "Gripe Mixture",
+    "image": "https://allenhealthcare.co.in/wp-content/uploads/2017/08/Allen_s-Gripe-Mixture.png",
+    "description": "Traditional herbal remedy for colic relief.",
+    "quantity": 90,
+    "price": 1500
+  },
+  {
+    "id": 69,
+    "name": "Nospamin Drops",
+    "image": "https://drugconsultpharm.ng/wp-content/uploads/2022/07/nospamin-drops.jpg",
+    "description": "Colic relief drops for infants and young children.",
+    "quantity": 70,
+    "price": 2600
+  },
+  {
+    "id": 70,
+    "name": "Broncholyte Syrup",
+    "image": "https://deshabpharmacy.com/shop/wp-content/uploads/2022/09/broncholyte-cough-syrup.jpg",
+    "description": "Bronchodilator syrup for children with asthma and respiratory issues.",
+    "quantity": 55,
+    "price": 4800
+  },
+  {
+    "id": 71,
+    "name": "Ventolin Syrup",
+    "image": "https://www.carencurepharmacy.com/cdn/shop/products/28410.jpg?v=1638166857&width=1080",
+    "description": "Bronchodilator syrup for asthma relief in children.",
+    "quantity": 80,
+    "price": 4600
+  },
+  {
+    "id": 72,
+    "name": "WellKid Smart Chewable",
+    "image": "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/87/1087112/1.jpg?1211",
+    "description": "Multivitamin chewable tablets for children.",
+    "quantity": 60,
+    "price": 7200
+  },
+  {
+    "id": 73,
+    "name": "Camosunate Suspension",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnnyAzL55UolmkX1UHBW_C4sN6pgDsOatbQpMlC7-F2o2C3rH7jMOyfPqR8h7NpSH4ysA&usqp=CAU",
+    "description": "Anti-malarial suspension for children.",
+    "quantity": 75,
+    "price": 3800
+  },
+  {
+    "id": 74,
+    "name": "Lonart DS Suspension",
+    "image": "https://www.santebene.com/wp-content/uploads/2021/10/lonart-suspension.jpg",
+    "description": "Artemisinin-based combination therapy for malaria.",
+    "quantity": 85,
+    "price": 4200
+  },
+  {
+    "id": 75,
+    "name": "Emzor Paracetamol Syrup",
+    "image": "https://healthace.ng/wp-content/uploads/2024/05/emzor-paracetamol-syrup-60ml.jpg",
+    "description": "Paracetamol suspension for pain and fever relief.",
+    "quantity": 100,
+    "price": 2500
+  },
+  {
+    "id": 76,
+    "name": "Zincovit Syrup",
+    "image": "https://www.emedbucket.com/emedpro_img/uploads/product/main/nkhmedzone/1659620180_142355_0.png",
+    "description": "Zinc supplement for immunity and wound healing.",
+    "quantity": 70,
+    "price": 3000
+  },
+  {
+    "id": 77,
+    "name": "Celin Vitamin C Syrup",
+    "image": "https://m.media-amazon.com/images/I/71ZkMZzZ7eL.jpg",
+    "description": "Vitamin C syrup for boosting immunity in children.",
+    "quantity": 65,
+    "price": 2700
+  },
+  {
+    "id": 78,
+    "name": "Zylocef Suspension",
+    "image": "https://egmedi.com/storage/product_media/Zedocef-50mg-Syrup-.webp",
+    "description": "Cefuroxime antibiotic suspension for bacterial infections.",
+    "quantity": 50,
+    "price": 5800
+  },
+  {
+    "id": 79,
+    "name": "Omez Suspension",
+    "image": "https://m.media-amazon.com/images/I/41CZgvEYKNL.jpg",
+    "description": "Omeprazole suspension for acid reflux and indigestion.",
+    "quantity": 85,
+    "price": 3500
+  },
+  {
+    "id": 80,
+    "name": "Diatabs Oral Suspension",
+    "image": "https://assets.unilab.com.ph/uploads/Common/Products/Diatabs/diatabs.png",
+    "description": "Oral suspension for treating diarrhea in children.",
+    "quantity": 95,
+    "price": 2800
+  },
+  {
+    "id": 81,
+    "name": "Cipla Actin Syrup",
+    "image": "https://healthonlineghana.com/cdn/shop/products/Cipla-Actin_Tablets_30s.jpg?v=1623984811",
+    "description": "Appetite stimulant and weight gain supplement for children.",
+    "quantity": 60,
+    "price": 3400
+  },
+  {
+    "id": 82,
+    "name": "Coflin Junior Cough Syrup",
+    "image": "https://betapharm.ng/wp-content/uploads/2024/07/coflin-lintus.webp",
+    "description": "Cough syrup with natural ingredients for children.",
+    "quantity": 55,
+    "price": 3200
+  },
+  {
+    "id": 83,
+    "name": "Immutol Syrup",
+    "image": "https://m.media-amazon.com/images/I/81Hl6D0tMQL.jpg",
+    "description": "Immune-boosting syrup for children.",
+    "quantity": 75,
+    "price": 4800
+  },
+  {
+    "id": 84,
+    "name": "Lactulose Syrup",
+    "image": "https://www.pharvaxbio.in/wp-content/uploads/2023/09/OUTVAX_100ML.jpg",
+    "description": "Mild laxative syrup for relieving constipation in children.",
+    "quantity": 80,
+    "price": 3700
+  },
+  {
+    "id": 85,
+    "name": "Bioferon Syrup",
+    "image": "https://sendbazar.com/wp-content/uploads/2024/08/BIOFERON-SIROP-200ML.jpg",
+    "description": "Iron supplement for preventing anemia in children.",
+    "quantity": 70,
+    "price": 2900
+  },
+  {
+    "id": 86,
+    "name": "Babyrex Teething Gel",
+    "image": "https://www.supermart.ng/cdn/shop/files/spls1011_a9c85448-8a67-4154-b3e0-3f4fd8e37d9a.jpg?v=1712666063",
+    "description": "Gel for relieving pain and discomfort during teething.",
+    "quantity": 90,
+    "price": 2200
+  },
+  {
+    "id": 87,
+    "name": "DeWorm Junior Suspension",
+    "image": "https://5.imimg.com/data5/IL/QY/MY-13216430/d-worm-pharmaceutical-medicine-500x500.jpg",
+    "description": "Anti-parasitic suspension for deworming children.",
+    "quantity": 85,
+    "price": 2500
+  },
+  {
+    "id": 88,
+    "name": "Orafresh Oral Gel",
+    "image": "https://assets.mikmak.workers.dev/tUcvIStoSF9yQmsQtwTE_kpbcfbdrwjxfeoxonphk.png",
+    "description": "Oral gel for soothing mouth ulcers in children.",
+    "quantity": 50,
+    "price": 2600
+  },
+  {
+    "id": 89,
+    "name": "Zithromax Suspension",
+    "image": "https://www.rosheta.com/upload/7a28c9bbb017df36be0148f2929138f7e2a3c334d5a85bb43d6b605eaa9ef8ee.webp",
+    "description": "Azithromycin suspension for treating bacterial infections.",
+    "quantity": 60,
+    "price": 5700
+  },
+  {
+    "id": 90,
+    "name": "Rhinathiol Junior Syrup",
+    "image": "https://d3ckuu7lxvlwp2.cloudfront.net/products/GZA8R2TTSu4CT8CxSHq5IGKB9VAk7Z5fScpYqoQA.jpeg",
+    "description": "Mucolytic syrup for cough with phlegm in children.",
+    "quantity": 75,
+    "price": 4200
+  },
+  {
+    "id": 91,
+    "name": "Cataflam Oral Drops",
+    "image": "https://hemlock.co.ke/wp-content/uploads/2024/08/catflam-drops.jpg",
+    "description": "Anti-inflammatory drops for pain relief in infants.",
+    "quantity": 50,
+    "price": 3900
+  },
+  {
+    "id": 92,
+    "name": "Septrin Suspension",
+    "image": "https://mback.medononline.com/storage/products/2024/12/22229538/22229538.jpg",
+    "description": "Antibiotic suspension for bacterial infections.",
+    "quantity": 85,
+    "price": 3100
+  },
+  {
+    "id": 93,
+    "name": "Alsite Suspension",
+    "image": "https://medecify.com/storages/2024/03/IMG-39-scaled.jpeg",
+    "description": "Anti-malaria suspension for treating malaria in children.",
+    "quantity": 80,
+    "price": 4200
+  },
+  {
+    "id": 94,
+    "name": "Bonabebe Syrup",
+    "image": "https://dglopapharmacy.com/wp-content/uploads/2021/10/Bonababe-60ml-syrup-for-babies-scaled.jpg",
+    "description": "Vitamin and mineral supplement for children.",
+    "quantity": 60,
+    "price": 3300
+  },
+  {
+    "id": 95,
+    "name": "Nurofen Infant Syrup",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDsU0tZK4tXxnu8GN9aTzX8mNsNE6smu8mo2iphcANDZnkq8rZmD_I1kcd6IjD279Bpqc&usqp=CAU",
+    "description": "Ibuprofen suspension for pain and fever relief in infants.",
+    "quantity": 50,
+    "price": 3700
+  }
+]

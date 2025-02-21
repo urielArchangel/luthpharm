@@ -25,7 +25,7 @@ const NavBar: React.FC = () => {
           justify-content: space-between;
           align-items: center;
           padding: 10px 20px;
-          background-color: #0070f3;
+          background-color: #4CBEF1;
           color: #fff;
         }
         .navbar-left h1 {
