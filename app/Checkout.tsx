@@ -24,7 +24,7 @@ const Checkout: React.FC = () => {
   // Fetch ongoing orders based on order IDs stored in localStorage
   const fetchOngoingOrders = async () => {
     const stored = localStorage.getItem('orderIds');
-    let orderIds: string[] = stored ? JSON.parse(stored) : [];
+    const orderIds: string[] = stored ? JSON.parse(stored) : [];
     const validOrders: OrderDetail[] = [];
     const updatedOrderIds: string[] = [];
 
