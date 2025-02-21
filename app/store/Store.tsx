@@ -32,7 +32,7 @@ const Store: React.FC = () => {
       <div className="drug-list">
         {filteredDrugs.map((drug: Drug) => (
           <div key={drug.id} className="drug-item">
-            <Image width={480} height={480} src={drug.image} alt={drug.name} />
+            <Image width={480} height={480} src={drug.image} alt={drug.name} loading='lazy' />
             <h2>{drug.name}</h2>
             <p>{drug.description}</p>
             <p className="price">Price: ₦{drug.price.toFixed(2)}</p>

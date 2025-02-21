@@ -9,14 +9,14 @@ const NavBar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-      <Link href="/"><h1>LuthPharm</h1></Link>
+      <Link href="/"><h1 className='font-bold' >LuthPharm</h1></Link>
       
       </div>
       <div className="navbar-center">
-        <Link href="/store">Store</Link>
+        <Link href="/store" className='hover:underline text-white'>Store</Link>
       </div>
       <div className="navbar-right">
-        <Link href="/checkout">Cart ({cart.length})</Link>
+        <Link href="/checkout" className='hover:underline text-white'>Cart ({cart.length})</Link>
       </div>
 
       <style jsx>{`
