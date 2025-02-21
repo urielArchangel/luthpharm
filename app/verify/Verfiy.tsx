@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 interface Drug {
@@ -115,7 +116,7 @@ const Verify: React.FC = () => {
           <ul className="mt-2">
             {order.drugsPurchased.map((drug) => (
               <li key={drug.id} className="flex items-center gap-4 border-b pb-2 mb-2">
-                <img src={drug.image} alt={drug.name} className="w-16 h-16 rounded" />
+                <Image src={drug.image} alt={drug.name} className="w-16 h-16 rounded" />
                 <div>
                   <p className="font-medium">{drug.name}</p>
                   <p className="text-gray-500">{drug.description}</p>

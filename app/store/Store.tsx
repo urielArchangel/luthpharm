@@ -2,6 +2,7 @@
 import React, { useState, ChangeEvent } from 'react';
 import drugs from '@/app/store/drugs.json';
 import { useCart, Drug } from '../CartContext';
+import Image from 'next/image';
 
 const Store: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
@@ -31,7 +32,7 @@ const Store: React.FC = () => {
       <div className="drug-list">
         {filteredDrugs.map((drug: Drug) => (
           <div key={drug.id} className="drug-item">
-            <img src={drug.image} alt={drug.name} />
+            <Image width={480} height={480} src={drug.image} alt={drug.name} />
             <h2>{drug.name}</h2>
             <p>{drug.description}</p>
             <p className="price">Price: ₦{drug.price.toFixed(2)}</p>
