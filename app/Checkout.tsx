@@ -14,6 +14,9 @@ const Checkout: React.FC = () => {
   const { cart, clearCart } = useCart();
   const [showModal, setShowModal] = useState<boolean>(false);
   const [ongoingOrders, setOngoingOrders] = useState<OrderDetail[]>([]);
+  // New states for delivery option and location
+  const [deliveryOption, setDeliveryOption] = useState<'pickup' | 'delivery'>('pickup');
+  const [deliveryLocation, setDeliveryLocation] = useState<string>('');
 
   // Calculate total price
   const total = cart.reduce((acc, item) => acc + item.price, 0);
@@ -21,7 +24,7 @@ const Checkout: React.FC = () => {
   // Fetch ongoing orders based on order IDs stored in localStorage
   const fetchOngoingOrders = async () => {
     const stored = localStorage.getItem('orderIds');
-    const orderIds: string[] = stored ? JSON.parse(stored) : [];
+    let orderIds: string[] = stored ? JSON.parse(stored) : [];
     const validOrders: OrderDetail[] = [];
     const updatedOrderIds: string[] = [];
 
@@ -115,6 +118,33 @@ const Checkout: React.FC = () => {
           <div className="total">
             <p>Total: ₦{total.toFixed(2)}</p>
           </div>
+          {/* New delivery options block */}
+          <div className="delivery-options">
+            <label>
+              <input
+                type="radio"
+                value="pickup"
+                checked={deliveryOption === 'pickup'}
+                onChange={() => setDeliveryOption('pickup')}
+              /> Pickup
+            </label>
+            <label>
+              <input
+                type="radio"
+                value="delivery"
+                checked={deliveryOption === 'delivery'}
+                onChange={() => setDeliveryOption('delivery')}
+              /> Delivery
+            </label>
+            {deliveryOption === 'delivery' && (
+              <input
+                type="text"
+                placeholder="Enter delivery location"
+                value={deliveryLocation}
+                onChange={(e) => setDeliveryLocation(e.target.value)}
+              />
+            )}
+          </div>
           <div className="buttons">
             <button className="pay-button" onClick={handlePayClick}>
               Pay
@@ -207,6 +237,21 @@ const Checkout: React.FC = () => {
           font-size: 18px;
           font-weight: bold;
           margin-bottom: 20px;
+        }
+        .delivery-options {
+          margin-bottom: 20px;
+        }
+        .delivery-options label {
+          margin-right: 15px;
+          font-size: 16px;
+        }
+        .delivery-options input[type='text'] {
+          display: block;
+          margin-top: 10px;
+          padding: 8px;
+          width: 100%;
+          border: 1px solid #ddd;
+          border-radius: 5px;
         }
         .buttons {
           display: flex;
